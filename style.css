@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+  
+    
+}
+
+#foto {
+    border-radius: 90px;
+    margin-bottom: 550px;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 800px;
+    margin-top: 100px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 15px;
+    background: radial-gradient(at 50% 0%, rgba(0, 0, 0,0), rgba(223, 223, 223, 0.1));
+    transition: 0.4s;
+}
+
+.corpo:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 45px;
+    background-color: rgb(48, 48, 48);
+}
+
+.nome {
+    position: absolute;
+    margin-bottom: 300px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.89);
+    display: flex;
+
+    
+}
+
+.desc {
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: rgb(202, 190, 202);
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+.tr {
+    
+    color: rgb(202, 190, 202);
+    outline: none;
+    font-weight: bold;
+}
+
+.nn {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 1);;
+}
+
+.descr2 {
+    
+    position: absolute;
+    margin-top: 450px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.descr3 {
+    margin-left: 20px;
+}
