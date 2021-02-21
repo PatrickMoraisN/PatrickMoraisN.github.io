@@ -153,11 +153,11 @@ header{
     border-radius: 8px;
     cursor: pointer;
     animation: moveBanner 1s 0.7s forwards;
-     
 }
 
 .banner button:hover{
-    background: linear-gradient(to top, #325781, #21355a)
+    background: linear-gradient(to top, #325781, #21355a);
+    transition: 2s;
 }
 
 @keyframes moveBanner{
@@ -301,5 +301,27 @@ header{
 }
 
 .academico i{
-    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+}
+
+.section-header{
+    padding-top: .5rem;
+    padding-bottom: 0rem;
+    font-size: 3rem;
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+
+.trybe{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-academico{
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
 }
