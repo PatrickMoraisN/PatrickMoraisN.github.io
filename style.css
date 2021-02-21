@@ -231,3 +231,75 @@ header{
     text-shadow: 1px 1px 2px #2b4575;
     transition: 1s;
 }
+
+.sobre{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.line-perfil{
+    position: relative;
+    background: #26406e;
+    height: .3rem;
+    width: 15rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 0rem;
+    border-radius: 5px; 
+}
+.sobre h2{
+    padding-top: .5rem;
+    padding-bottom: 0rem;
+    font-size: 5rem;
+    color: rgb(34, 34, 34);
+}
+
+.sobre img{
+    width: 15rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    
+}
+.texto-sobre{
+    font-family: 'Josefin Slab', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;   
+
+}
+.upper{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.line-down{
+    position: relative;
+    background: #26406e;
+    height: .3rem;
+    width: 15rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 5em;
+    border-radius: 5px; 
+}
+
+
+.academico{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.academico i{
+    font-size: 10rem;
+}
