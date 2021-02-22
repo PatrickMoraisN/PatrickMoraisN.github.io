@@ -32,29 +32,29 @@
             <div class="img-wrapper">
                 <img src="./imagens/altumcode-dMUt0X3f59Q-unsplash.jpg" alt="">
             </div>
-            <div class="banner">
+            <div class="banner" id="home">
                 <h1>Web Developer & Front End Designer</h1>
                 <p>Patrick Morais Nunes</p>
-                <button>Saiba mais!</button>
+                <button ><a href="#sobre">Saiba mais!</a></button>
             </div>
         </header>
 
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Sobre</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Acadêmico</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Skills</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#sobre" class="menu-link">Sobre</a></li>
+                    <li class="menu-item"><a href="#academico" class="menu-link">Acadêmico</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link" style="transition: 1s;">Skills</a></li>
                 </ul>
             </nav>
             <div class="social-media">
-                <a href=""><i class="fab fa-linkedin"></i></a>
-                <a href=""><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/patrick-morais/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/patrickmoraisn" target="_blank"><i class="fab fa-github-square"></i></a>
             </div>
         </aside>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
 
             <div class="section-header">
                 <h2>Sobre</h2>
@@ -66,18 +66,18 @@
             <p class="texto-sobre">
                  Oi, eu sou o Patrick!<br><Br>
 
-                    Atualmente estou estudando bastante em <strong>inúmeros</strong> lugares e fontes.<br>
-                Sou apaixonado pelo mundo de Tecnologia e Desenvolvimento e marcas que traba-
-                lhem para contribuir com uma melhor interação digital. Por isso estou me dedicando <span class="upper">muito</span> para ser 
-                um desenvolvedor com grande diferencial e de sucesso.
-                Trabalho e acredito em ações que possam gerar um
-                impacto positivo na vida das pessoas. 
+                    Sou apaixonado pelo mundo de Tecnologia e Desenvolvimento e marcas que trabalhem 
+                    para contribuir com uma melhor interação digital. Por isso estou me dedicando <span class="upper">muito</span> para ser 
+                    um desenvolvedor com grande diferencial e de sucesso.
+                    Trabalho e acredito em ações que possam gerar um
+                    impacto positivo na vida das pessoas. <br>
+                    Atualmente estou estudando javascript e react.
                  </p>
             <div class="line-down"></div>
 
         </section>
 
-        <section class="academico">
+        <section class="academico" id="academico">
             <div class="section-header">
                 <h2>Acadêmico</h2>
             <div class="line-perfil"></div>
@@ -85,22 +85,99 @@
             <i class="fas fa-graduation-cap"></i>
 
             <p class="text-academico"> 
-        <span class="trybe">Trybe</span> : Trybe é uma escola que em sua metodologia de ensino provoca em
-        seus alunos uma experiência real do dia a dia de trabalho de um
-        desenvolvedor de software , com muito trabalho em equipe e
-        mão na massa. Se compromete integralmente com
-        seus estudantes, pois adota o Modelo de Sucesso Compartilhado.<br><br>
-        
-        
-        O programa conta com mais de 1.500 horas de aulas presenciais e on-
-        line e aborda introdução ao desenvolvimento de software, front-end,
-        back-end, ciência da computação, engenharia de software, metodolo-
-        gias ágeis e habilidades comportamentais.
+        <span class="trybe">Trybe</span> : Trybe é uma escola que em seu programa conta com mais de 1.500 horas de aulas presenciais e on-
+        line e aborda   <span class="negrito"> introdução ao desenvolvimento de software, front-end,
+        back-end, ciência da computação, engenharia de software, metodologias ágeis
+         e habilidades comportamentais.</span><br><br><br>
 
+
+        <span class="trybe">Senac</span> : <span class="negrito">Análise e Desenvolvimento de Sistemas.</span> O graduado estará preparado para utilizar as principais 
+        tecnologias para desenvolvimento de sistemas, 
+        construindo aplicações para computadores, web ou dispositivos móveis, sendo capaz de oferecer soluções integradas e 
+        alinhadas às necessidades das organizações. <br><br><br>
+
+
+        <span class="trybe">B7Web</span> : Programa voltado para <span class="negrito">Desenvolvimento Web: front-end, back-end e mobile. </span>
             </p>
+
+        <div class="line-down" id="line-acad"></div>
             
         </section>
 
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+              <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-html5"></i>
+                  <h3>HTML</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>É uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-css3-alt"></i>
+                  <h3>CSS</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-js"></i>
+                  <h3>Javascript</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-comments"></i>
+                  <h3>Soft-Skills</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Habilidades comportamentais: <br>
+                    - Comunicação. <br>
+                    - Automotivação. <br>
+                    - Autodidata. <br>
+                    - Flexibilidade. <br>
+                  </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-linux"></i>
+                  <h3>Unix/Bash</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-github"></i>
+                  <h3>Git e GitHub</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software. GitHub é uma plataforma de hospedagem de código para controle de versão e colaboração.</p>
+                </div>
+              </div>
+              <div class="conhecimentos-img-wrapper">
+                <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+              </div>
+            </div>
+          </section>
+
+          <footer>
+              <p>Desenvolvido por Patrick, com referência e ajuda de <a href="https://github.com/joaocarloslima/" target="_blank">João Carlos Lima</a></p>
+          </footer>
     </div>
 
 </body>
