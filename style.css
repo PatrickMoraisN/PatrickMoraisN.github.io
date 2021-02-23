@@ -451,3 +451,15 @@ button a{
       color: aliceblue;
       border-bottom: solid 1px aliceblue;
   }
+  @media only screen and (max-width:375px){
+      *{
+          font-size: .5rem;
+      }
+      .conhecimentos-img-wrapper img{
+          width: 50%;
+          height: 50%;
+          margin-left: 50%;
+          margin-top: 50%;
+          transform: translate(-50%,-50%);
+      }
+  }
